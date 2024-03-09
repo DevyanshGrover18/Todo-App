@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(110, 57, 110);
+}
+
+.header>input{
+    border-radius: 8px 0 0 8px;
+}
+.header>button{
+    border-radius: 0 8px 8px 0;
+}
+
+.header{
+    background-color: rgb(157 83 157 / 78%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}  
+
+.todo{
+    background-color: rgb(157 83 157 / 78%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.task{
+    background-color: rgb(126 67 126);
+    filter: blur();
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.header>input{
+    background-color: rgb(224, 163, 224);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header>button{
+    background-color: rgb(224, 163, 224);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.19);
+}
